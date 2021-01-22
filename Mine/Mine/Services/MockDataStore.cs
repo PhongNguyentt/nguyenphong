@@ -14,12 +14,11 @@ namespace Mine.Services
         {
             items = new List<ItemModel>()
             {
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Pikachu", Description="This is an Electric-type Pokemon.", Value=5 },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Snorlax", Description="This is the heaviest Pokemon.", Value=10 },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Charmander", Description="This is a Fire-type Lizard Pokemon.", Value=8 },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Bulbasaur", Description="This is a Grass/Poison-type Seed Pokemon.", Value=7 },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Squirtle", Description="This is a Water-type Pokemon.", Value=6 }
             };
         }
 
