@@ -6,6 +6,7 @@ using Xamarin.Forms.Xaml;
 
 using Mine.Models;
 using Mine.ViewModels;
+using Mine.Services;
 
 namespace Mine.Views
 {
@@ -44,6 +45,7 @@ namespace Mine.Views
         async void Save_Clicked(object sender, EventArgs e)
         {
             MessagingCenter.Send(this, "UpdateItem", Item);
+
             await Navigation.PopModalAsync();
         }
 
