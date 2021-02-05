@@ -17,6 +17,7 @@ namespace Mine.Helpers
                 return rolls * ForcedRandomValue;
             }
 
+
             if (rolls < 1)
             {
                 return 0;
